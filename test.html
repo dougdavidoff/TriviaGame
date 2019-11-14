@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1> General Knowledge Quiz </h1> 
+
+    <h2 id='questionTitle'> </h2>
+    <ul id ='selectionList'> </ul>
+    <p> Click the next button to go to the next question! </p>
+
+    <button type="button" id = nextButton> Next </button>
+</div>  
+
+<script>
+
+var allQuestions = [{
+    question: 'What is the capital city of Australia?',
+    choices: ['Sydney', 'Melbourne', 'Canberra', 'London'],
+    correctAnswer: 2
+},
+{
+    question: 'Who won the 2014 FIFA World Cup?',
+    choices: ['Brazil', 'England', 'Germany', 'Spain'],
+    correctAnswer: 2
+},
+{
+    question: 'What book series is authored by J.K Rowling?',
+    choices: ['Game of Thrones', 'Hunger Games', 'Twilight', 'Harry Potter'],
+    correctAnswer: 3
+},
+{   
+    question: 'The Eiffel Tower is located in which following country?',
+    choices: ['Italy', 'France', 'Iceland', 'Mexico'],
+    correctAnswer: 1
+}];
+
+//Reference to tags
+var questionTitle = document.getElementById('questionTitle');
+var selectionList = document.getElementById('selectionList');
+var nextButton = document.getElementById('nextButton');
+
+//Initiating some variables
+var i = 0;
+var length1 = allQuestions.length;
+var correctAnswer = 0;
+
+function populateQuestion() {}
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
