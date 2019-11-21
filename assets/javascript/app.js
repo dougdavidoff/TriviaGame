@@ -131,7 +131,7 @@ clearInterval(intervalId);
       image: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-540x360/06/95/f3/17.jpg"
     },
     {
-      question: "Where is Waldo, really?",
+      question: " ?",
       answers: {
         a: "Antarctica",
         b: "Exploring the Pacific Ocean",

@@ -1,0 +1,17 @@
+/* font-family: 'Calistoga', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+body {
+    background-image: url("../images/vc10.jpg");
+}
+
+h1 {
+    font-family: 'Calistoga', cursive;
+}
+
+#timer {
+    background-color: #419D78;
+    color:#EFD0CA;
+    font-size:20px;
+    text-align:center;
+}
